@@ -1,0 +1,23 @@
+name: macOS Runner
+
+on:
+  workflow_dispatch:
+    # Allows manual input to select a specific macOS version
+    # Defaults to `latest` if not provided.
+    inputs:
+      macos_version:
+        description: "Select macOS version"
+        required: false
+        default: "latest"
+
+jobs:
+  build:
+    # Runs the job on the specified macOS version, using `latest` by default.
+    runs-on: macos-${{ github.event.inputs.macos_version }}
+
+    steps:
+      - name: 🔗 Setup tmate session
+        # Starts a tmate session for remote access
+        uses: mxschmitt/action-tmate@v3
+
+# 38mlo8dfeowp4is7opsjvaf6l
