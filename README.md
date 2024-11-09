@@ -1,6 +1,6 @@
-# macos-runner
+# 🏃‍♂️‍➡️ macos-runner
 
-This is a repository with **GitHub Action** that you can use to connect to a **macOS** machine to test your applications over **SSH**.
+This is a repository with **GitHub Action** that you can use to connect to a GitHub-hosted **macOS** machine to test your applications over **SSH**.
 
 Thanks to this, you do not need to specially buy a MacBook in order to check whether your program will work on it
 
