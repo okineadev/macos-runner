@@ -18,6 +18,6 @@ jobs:
     steps:
       - name: 🔗 Setup tmate session
         # Starts a tmate session for remote access
-        uses: mxschmitt/action-tmate@e5c7151931ca95bad1c6f4190c730ecf8c7dde48 # v3
+        uses: mxschmitt/action-tmate@c606f8612a802e46b3742322514c09fbc8c4afee # v3
 
 # 38mlo8dfeowp4is7opsjvaf6l
